@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+.container {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #292929;
+    border: 5px solid ;
+    border-image: linear-gradient(45deg,black, black,#45f2ff, black ,black);
+    border-image-slice: 1;
+    color: aliceblue;
+
+}
+
+.alina-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alina-profile img {
+    position: absolute;
+    z-index: 1;
+    height: 250px;
+    width: 250px;
+    border: 5px solid;
+    border-image: linear-gradient(310deg,black, black,#45f2ff, black ,black);
+    border-image-slice: 1;
+}
+
+.content {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content span {
+    color: #45f2ff;
+    font-size: 30px;
+}
+
+.social-counts {
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.buttons button {
+    margin-top: 20px;
+}
+
+.flw-btn {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #45f2ff;
+    color: black;
+    width: 150px;
+}
+
+.msg-btn {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8fbfb;
+    color: black;
+    width: 150px;
+    margin-left: 10px;
+
+}
+    </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Senior UI/UX Designer</title>
+</head>
+
+<body>
+    <div class="alina-profile">
+        <img src="abhi.JPG" alt="Alina Smith">
+    </div>
+    <div class="container">
+        <div class="content">
+            <span>Abhimanyu Tiwari</span>
+            <h3>Web Developer / Full Stack Developer</h3>
+            <div class="social-counts">
+                <div class="post">
+                    <span>342</span>
+                    <p>Post</p>
+                </div>
+                <div class="followers">
+                    <span>120k</span>
+                    <p>followers</p>
+                </div>
+                <div class="following">
+                    <span>285</span>
+                    <p>following</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="button flw-btn" type="button">Follow</button>
+                <button class="button msg-btn" type="submit">Message</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
